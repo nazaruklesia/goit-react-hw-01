@@ -1,0 +1,33 @@
+.transactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  padding: 10px;
+  text-align: left;
+  background-color: #343434;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #343434;
+  text-align: center;
+}
